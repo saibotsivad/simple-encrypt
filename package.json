@@ -1,0 +1,28 @@
+{
+  "name": "simple-pgp",
+  "version": "0.0.1",
+  "main": "./simple-pgp.js",
+  "author": {
+    "name": "saibotsivad",
+    "email": "tobias@davistobias.com",
+    "url": "http://tobiaslabs.com"
+  },
+  "description": "Wrap a well known PGP library into it's simplest use cases.",
+  "keywords": [
+    "pgp",
+    "encryption"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saibotsivad/simple-pgp.git"
+  },
+  "devDependencies": {
+    "tap": "~0.4.4"
+  },
+  "directories": {
+  	"test": "test"
+  },
+  "scripts": {
+  	"test": "tap ./test/*.js"
+  }
+}
