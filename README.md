@@ -1,4 +1,4 @@
-simple-pgp
-==========
+simple-encrypt
+==============
 
-Wrap a well known PGP library into it's simplest use cases.
+Wrap a well known encryption library into it's simplest use cases.
