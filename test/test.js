@@ -1,9 +1,9 @@
-var pgp = require('../')
+var simple_encrypt = require('../')
 var test = require('tap').test
 
-var key_pair = pgp.generate()
-var public_key = pgp.publicKey(key_pair.public_key)
-var private_key = pgp.privateKey(key_pair.private_key)
+var key_pair = simple_encrypt.generate()
+var public_key = simple_encrypt.publicKey(key_pair.public_key)
+var private_key = simple_encrypt.privateKey(key_pair.private_key)
 
 var message = 'dogecoins are hilarious'
 

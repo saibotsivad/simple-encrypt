@@ -1,20 +1,21 @@
 {
-  "name": "simple-pgp",
+  "name": "simple-encrypt",
   "version": "0.0.1",
-  "main": "./simple-pgp.js",
+  "main": "./simple-encrypt.js",
   "author": {
     "name": "saibotsivad",
     "email": "tobias@davistobias.com",
     "url": "http://tobiaslabs.com"
   },
-  "description": "Wrap a well known PGP library into it's simplest use cases.",
+  "description": "Wrap a well known encryption library into it's simplest use cases.",
   "keywords": [
     "pgp",
+    "ssh",
     "encryption"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/saibotsivad/simple-pgp.git"
+    "url": "https://github.com/saibotsivad/simple-encrypt.git"
   },
   "devDependencies": {
     "tap": "~0.4.4"
@@ -24,5 +25,8 @@
   },
   "scripts": {
   	"test": "tap ./test/*.js"
+  },
+  "dependencies": {
+    "ursa": "~0.8.0"
   }
 }
