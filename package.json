@@ -7,12 +7,17 @@
     "email": "tobias@davistobias.com",
     "url": "http://tobiaslabs.com"
   },
+  "homepage": "https://github.com/saibotsivad/simple-encrypt",
   "description": "Wrap a well known encryption library into it's simplest use cases.",
   "keywords": [
     "pgp",
     "ssh",
     "encryption"
   ],
+  "licenses": [ {
+      "type": "WTFPL",
+      "url": "http://www.wtfpl.net/about/"
+  } ],
   "repository": {
     "type": "git",
     "url": "https://github.com/saibotsivad/simple-encrypt.git"
