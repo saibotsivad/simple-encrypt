@@ -23,7 +23,7 @@
     "url": "https://github.com/tobiaslabs/simple-encrypt.git"
   },
   "devDependencies": {
-    "tap": "~0.4.4"
+    "tap": "~10.7.0"
   },
   "directories": {
   	"test": "test"
@@ -32,6 +32,6 @@
   	"test": "tap ./test/*.js"
   },
   "dependencies": {
-    "ursa": "~0.8.0"
+    "ursa": "~0.9.4"
   }
 }
